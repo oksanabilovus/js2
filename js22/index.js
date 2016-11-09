@@ -9,7 +9,7 @@ var dis = b * b - 4 * a * c;
 var a2 = 2 * a;
 
      if(dis<0){
-        document.getElementById('Equation').innerHTML='No real roots exist since Discriminant < 0 !<br />D = ' + dis + ' <br />The Equation = ' + a + 'x&#178; + ' + b + 'x + ' + c + '<br />';
+        document.getElementById('Equation').innerHTML='No real roots exist since Discriminant < 0 !<br />D = ' + dis + ' <br />Квадратне рівняння = ' + a + 'x&#178; + ' + b + 'x + ' + c + '<br />';
         document.getElementById('x1').innerHTML='&nbsp; ';
         document.getElementById('x2').innerHTML='&nbsp; ';
         }
